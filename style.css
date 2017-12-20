@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Bitter');
+body {
+  background-color: rgb(224, 224, 224);
+}
+
+h1 {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 4em;
+  text-align: center;
+  color: rgb(46, 46, 46);
+}
+
+h1::selection {
+  color: rgb(200, 84, 84);
+  background: rgba(224, 224, 224, 0);
+}
+
+b::selection {
+  color: rgb(200, 84, 84);
+  background: rgba(224, 224, 224, 0);
+}
+
+::selection {
+  color: rgb(200, 84, 84);
+  background: rgba(224, 224, 224, 0);
+}
+
+p {
+  font-family: 'Bitter', serif;
+  font-size: 1.5em;
+  padding-top: 5%;
+}
+
+.centerP {
+  text-align: center;
+  font-size: 1.7em;
+  padding-top: 5%;
+}
+
+.subtitle {
+  font-size: 0.9em;
+  padding-bottom: 5%;
+}
+
+b {
+  text-decoration: underline;
+  text-shadow: 1px 2px 1px rgba(126, 126, 126, 0.3);
+}
+
+.container {
+  width: 70%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+a {}
+
+/* unvisited link */
+
+a:link {
+  color: rgb(200, 84, 84);
+}
+
+/* visited link */
+
+a:visited {
+  color: rgb(46, 46, 46);
+}
+
+/* mouse over link */
+
+a:hover {
+  color: rgb(92, 181, 128);
+}
+
+/* selected link */
+
+a:active {
+  color: white;
+}
+
+pre {
+  background-color: rgb(255, 255, 255);
+  border: 3px solid black;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 35px;
+  font-size: 1.8em;
+  padding-left: 3%;
+}
+
+img {
+  border: 1px solid rgb(64, 64, 64);
+  display: block;
+  margin: auto;
+
+}
